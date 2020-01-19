@@ -1,0 +1,122 @@
+html {
+    background-image: url("https://www.nebeep.com/wp-content/uploads/2017/09/Earth-view-from-space-HD-wallpaper.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+body {
+    background-color:transparent;
+}
+
+.container {
+    background-color: transparent;
+    min-width: 500px;
+    height: 750px;
+    margin: 5% auto;
+    padding: 0;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(219, 219, 219);
+}
+
+#header {
+    width: 100%;
+    background-color:transparent;
+    height: 100px;
+    color: whitesmoke;
+}
+#header-text {
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    letter-spacing: 5px;
+}
+
+#row {
+    background-color: rgba(255, 0, 0, 0);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 18px;
+    height: 450px;
+}
+
+#main-col-right{
+    background-color: rgba(255, 255, 255, 0.247);
+    justify-content: center;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-right: none;
+}
+
+.btn {
+    margin: 1px auto;
+    width: 100%;
+    border: none;
+    background-color: rgb(243, 243, 243);
+}
+
+#main-col-right {
+    background-color: rgba(255, 255, 255, 0.589);
+}
+
+.location {
+    background-color: rgba(255, 255, 255, 0.295);
+    margin: 15px;
+    height: 200px;
+    float: left;    
+    width: 90%;
+    padding: 15px 25px;
+    line-height: 12px;
+}
+.weather{
+    background-color: rgba(255, 255, 255, 0.295);
+    margin: 15px;
+    height: 200px;
+    float: left;    
+    width: 90%;
+    padding: 40px auto 0 auto;
+    display: flex;
+    align-content: center;
+}
+
+
+#city {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.weatherboxs {
+    width: 120px;
+    height: 140px;
+    background-color: rgb(230, 230, 230);
+    float: left;
+    margin: 15px 1% 0px 1%;
+    padding: 0 4px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+@media only screen and (max-width: 833px) {
+    .weatherboxs {
+        width: 70px;
+        height: 140px;
+        margin: 10px auto;
+    }
+
+    #main-container{
+        height: 750px;
+        
+    }
+
+    #main-col-right{
+        background-color: rgba(255, 255, 255, 0.589);
+        justify-content: center;
+    }
+
+  }
