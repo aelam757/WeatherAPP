@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Weather Dashboard</title>
 </head>
+
 <body>
     <div class="container" id="container">
         <div class="container" id="header">
@@ -20,47 +22,45 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3" id="main-col-right">
                 <form id="form">
                     <div class="form">
-                      <label for="Search"><strong>Search Location:</strong></label>
-                      <input type="text" class="control" id="cityInput" autocomplete="off" placeholder="">
+                        <label for="Search"><strong>Search Location:</strong></label>
+                        <input type="text" class="control" id="cityInput" autocomplete="off" placeholder="">
                     </div>
                 </form>
                 <div class="button">
                 </div>
             </div>
-            
+
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9" id="main-col-right">
                 <div class="location">
-                    <p id="icon" class="icon"></p>
-                    <p id="city"></p>
-                    <p id="temperature"></p>
-                    <p id="wind-speed"></p>
-                    <p id="UV-index" class="badge"></p>
+                    <th id="icon" class="icon"></th>
+                    <th id="city"></th>
+                    <th id="temperature"></th>>
+                    <th id="wind-speed"></th>
+                    <th id="UV-index" class="badge"></th>
                 </div>
                 <div class="weather">
                     <div class="weatherboxs" id="box0">
-                        <p id="date0"></p>
+                        <th id="date0"></th>
                     </div>
                     <div class="weatherboxs" id="box1">
-                        <p id="date1"></p>
+                        <th id="date1"></th>
                     </div>
                     <div class="weatherboxs" id="box2">
-                        <p id="date2"></p>
+                        <th id="date2"></th>
                     </div>
                     <div class="weatherboxs" id="box3">
-                        <p id="date3"></p>
+                        <th id="date3"></th>
                     </div>
                     <div class="weatherboxs" id="box4">
-                        <p id="date4"></p>
+                        <th id="date4"></th>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    
-
-
-
-    <script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="script.js"></script>
 </body>
+
 </html>

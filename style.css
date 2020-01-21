@@ -102,14 +102,14 @@ img {
 }
 
 
-@media only screen and (max-width: 833px) {
+@media only screen and (max-width: 900px) {
     .weatherboxs {
         width: 70px;
         height: 140px;
         margin: 10px auto;
     }
 
-    #main-container{
+    #container{
         height: 750px;
         
     }
